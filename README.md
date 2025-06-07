@@ -29,24 +29,25 @@ SMTP credentials for sending email
 🛠️ Installation
 
 Clone the repository
-
+```
 git clone https://github.com/aminvahdat/woocommerce-iran-price-fix.git
 cd woocommerce-iran-price-fix
-
+```
 Create a virtual environment
-
+```
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-
+```
 Install dependencies
 
+```
 pip install -r requirements.txt
-
+```
 ⚙️ Configuration
 
 Create .env file
 
-
+```
 # WooCommerce API
 WC_URL=https://your-store.ir
 WC_CONSUMER_KEY=ck_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -58,7 +59,7 @@ SMTP_PORT=587
 SMTP_USER=you@example.com
 SMTP_PASSWORD=your-email-password
 EMAIL_TO=notify-me@example.com
-
+```
 ▶️ Usage
 
 Run the script with:
