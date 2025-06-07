@@ -49,10 +49,9 @@ Create .env file
 
 ```
 # آدرس سایت ووکامرس شما
-WC_URL=https://yellowdeerco.ir
+WC_URL=https://your-store.ir
 
 # WooCommerce API
-WC_URL=https://your-store.ir
 WC_CONSUMER_KEY=ck_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 WC_CONSUMER_SECRET=cs_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
