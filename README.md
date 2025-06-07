@@ -44,11 +44,8 @@ pip install -r requirements.txt
 
 ⚙️ Configuration
 
-Copy the example environment file
+Create .env file
 
-cp env.example .env
-
-Open .env and fill in your credentials:
 
 # WooCommerce API
 WC_URL=https://your-store.ir
