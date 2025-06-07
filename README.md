@@ -48,6 +48,9 @@ pip install -r requirements.txt
 Create .env file
 
 ```
+# آدرس سایت ووکامرس شما
+WC_URL=https://yellowdeerco.ir
+
 # WooCommerce API
 WC_URL=https://your-store.ir
 WC_CONSUMER_KEY=ck_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -55,7 +58,7 @@ WC_CONSUMER_SECRET=cs_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # SMTP for confirmation email
 SMTP_HOST=smtp.example.com
-SMTP_PORT=587
+SMTP_PORT=465
 SMTP_USER=you@example.com
 SMTP_PASSWORD=your-email-password
 EMAIL_TO=notify-me@example.com
